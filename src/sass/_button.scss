@@ -1,0 +1,28 @@
+.btn-container {
+  position: relative;
+  height: 100%;
+
+  & .load-more {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: 30px;
+    background: rgb(74, 218, 151);
+    border-radius: 20%;
+    border: 1px solid rgb(46, 126, 66);
+    &:hover {
+      color: #fff;
+      background: rgb(25, 87, 54);
+      border-radius: 20%;
+      border: 1px solid rgb(82, 233, 132);
+    }
+  }
+  & .load-more {
+    bottom: -50px;
+  }
+
+  & .is-hidden {
+    display: none;
+  }
+}
